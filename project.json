@@ -1,28 +1,62 @@
 {
   "name": "HelloWorld",
+  "projectId": "013474a1-b640-4156-8e78-53c8602b31aa",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.5.4]",
-    "UiPath.Mail.Activities": "[1.4.1]",
-    "UiPath.System.Activities": "[19.4.1]",
-    "UiPath.UIAutomation.Activities": "[19.4.2]"
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.6]",
+    "UiPath.UIAutomation.Activities": "[21.10.10]"
   },
-  "schemaVersion": "3.2",
-  "studioVersion": "19.4.4.0",
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.1.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
-    ]
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
-  "projectType": "Workflow",
-  "libraryOptions": {
-    "includeOriginalXaml": false,
-    "privateWorkflows": []
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
   },
-  "webServices": []
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "5b09b003-47b5-4f42-8759-e9f5490b980a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
 }
